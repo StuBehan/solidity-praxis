@@ -2,17 +2,17 @@
 pragma soidity ^0.8.13;
 
 contract Counter {
-  uint public count;
+	uint256 public count;
 
-  function get() public view returns (uint) {
-    return count;
-  }
+	function get() public view returns (uint256) {
+		return count;
+	}
 
-  function increase() public {
-    count += 1;
-  }
+	function increase() public {
+		count += 1;
+	}
 
-  function decrease() public {
-    count -= 1;
-  }
+	function decrease() public {
+		count -= 1;
+	}
 }
