@@ -10,7 +10,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "prettier -l \"./**/*.sol\""
+    "lint": "prettier -l \"./**/*.sol\"",
+    "lint:fix": "prettier --write \"./**/*.sol\""
   },
   "author": "",
   "license": "ISC"
